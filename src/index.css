@@ -1,0 +1,36 @@
+@import "../original_app.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .hero-display {
+    font-family: 'Bricolage Grotesque', sans-serif;
+  }
+  .hero-body {
+    font-family: 'Work Sans', sans-serif;
+  }
+  .hero-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+  .font-caveat {
+    font-family: 'Caveat', cursive;
+  }
+  .transform-3d {
+    transform-style: preserve-3d;
+  }
+}
+
+/* Scrapbook and page flip styles */
+.book-page {
+  position: relative;
+  background-color: #fffbeb;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+/* Custom scrollbar hiding if needed */
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}

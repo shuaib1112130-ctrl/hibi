@@ -1,23 +1,11 @@
-import { defineConfig } from 'vite';
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
+// https://vite.dev/config/
 export default defineConfig({
+  plugins: [react()],
   server: {
-    host: true,
-    port: 5173,
-    watch: {
-      ignored: [
-        '**/node_modules/**',
-        '**/dist/**',
-        '**/*.mp3',
-        '**/*.mp4',
-        '**/*.wav',
-        '**/*.ogg',
-        '**/*.jpeg',
-        '**/*.jpg',
-        '**/*.png',
-        '**/*.gif',
-        '**/public/assets/**',
-      ],
-    },
-  },
-});
+    port: 3000,
+    open: false
+  }
+})

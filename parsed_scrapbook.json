@@ -1,0 +1,262 @@
+[
+  {
+    "pageIndex": 1,
+    "images": []
+  },
+  {
+    "pageIndex": 2,
+    "images": [
+      {
+        "src": "/pages/front.png",
+        "className": "object-contain scale-130 translate-x-3 pointer-events-none select-none"
+      }
+    ]
+  },
+  {
+    "pageIndex": 3,
+    "images": [
+      {
+        "src": "/pages/left.jpg",
+        "className": "object-contain  pointer-events-none select-none"
+      },
+      {
+        "src": "/elements/fwine.png",
+        "className": "object-contain  -rotate-12  -translate-x-34 -translate-y-33 scale-35   "
+      },
+      {
+        "src": "/elements/side3.png",
+        "className": "object-contain   -translate-x-23 -translate-y-14 scale-78   "
+      },
+      {
+        "src": "/elements/mouse.png",
+        "className": "object-contain   z-50 translate-x-20 translate-y-46 scale-55   "
+      },
+      {
+        "src": "/elements/butter.png",
+        "className": "object-contain scale-45 rotate-30  -translate-x-28 translate-y-32 "
+      },
+      {
+        "src": "/ref/girl.jpg",
+        "className": "object-contain scale-33  rotate-10  translate-x-14 -translate-y-23 "
+      },
+      {
+        "src": "/elements/frame10.png",
+        "className": "object-contain scale-65 rotate-10  translate-x-14 -translate-y-20 "
+      },
+      {
+        "src": "/elements/text1.png",
+        "className": "object-contain scale-45   translate-x-10 translate-y-15 "
+      }
+    ]
+  },
+  {
+    "pageIndex": 4,
+    "images": [
+      {
+        "src": "/pages/right.jpg",
+        "className": "object-contain  pointer-events-none select-none"
+      },
+      {
+        "src": "/elements/paper.png",
+        "className": "object-contain rotate-90 shadow-black   translate-x-18 translate-y-38  scale-50   "
+      },
+      {
+        "src": "/elements/starB.png",
+        "className": "object-contain shadow-black  -rotate-50 -translate-x-17 translate-y-30  scale-50   "
+      },
+      {
+        "src": "/ref/girl.jpg",
+        "className": "object-contain shadow-black rotate-20  translate-x-19 -translate-y-22  scale-22   "
+      },
+      {
+        "src": "/ref/girl2.jpg",
+        "className": "object-contain shadow-black rotate-20  translate-x-26 -translate-y-43  scale-22   "
+      },
+      {
+        "src": "/ref/girl3.jpg",
+        "className": "object-contain shadow-black rotate-20  translate-x-11 translate-y-1  scale-22   "
+      },
+      {
+        "src": "/elements/frame9.png",
+        "className": "object-contain shadow-black rotate-12  translate-x-18 -translate-y-20  scale-80   "
+      },
+      {
+        "src": "/elements/text2.png",
+        "className": "object-contain shadow-black rotate-0 -translate-x-13 -translate-y-40  scale-60   "
+      },
+      {
+        "src": "/elements/kit.png",
+        "className": "object-contain shadow-black rotate-0 -translate-x-13 -translate-y-16  scale-60   "
+      }
+    ]
+  },
+  {
+    "pageIndex": 5,
+    "images": [
+      {
+        "src": "/pages/left.jpg",
+        "className": "object-contain pointer-events-none select-none"
+      },
+      {
+        "src": "/elements/billa6.png",
+        "className": "object-contain scale-55 rotate-1 -translate-x-30 -translate-y-10"
+      },
+      {
+        "src": "/elements/side1.png",
+        "className": "object-contain scale-50 rotate-180 -translate-x-26 translate-y-31"
+      },
+      {
+        "src": "/elements/starem.png",
+        "className": "object-contain scale-16 -rotate-18 translate-x-18 -translate-y-56 z-20"
+      },
+      {
+        "src": "/ref/girl4.jpg",
+        "className": "object-contain scale-33 rotate-17 translate-x-13 -translate-y-21 z-30"
+      },
+      {
+        "src": "/elements/frame11.png",
+        "className": "object-contain scale-75 rotate-18 translate-x-10 -translate-y-11 z-30"
+      },
+      {
+        "src": "/elements/moon.png",
+        "className": "object-contain scale-34 -rotate-14 -translate-x-20 translate-y-30 z-40"
+      },
+      {
+        "src": "/elements/fits.png",
+        "className": "object-contain scale-44 -rotate-14 -translate-x-30 -translate-y-50 z-40"
+      },
+      {
+        "src": "/elements/note1.png",
+        "className": "object-contain scale-68 -rotate-7 z-50 translate-x-14 translate-y-38 "
+      },
+      {
+        "src": "/elements/lovetape.png",
+        "className": "object-contain scale-19 rotate-0 z-50 translate-x-10 translate-y-24"
+      }
+    ]
+  },
+  {
+    "pageIndex": 6,
+    "images": [
+      {
+        "src": "/pages/right.jpg",
+        "className": "object-contain pointer-events-none select-none"
+      },
+      {
+        "src": "/elements/side2.png",
+        "className": "object-contain scale-68  rotate-0 z-50 translate-x-16 translate-y-23 "
+      },
+      {
+        "src": "/elements/billa.png",
+        "className": "object-contain scale-38  rotate-0 z-50 -translate-x-14 -translate-y-28 "
+      },
+      {
+        "src": "/elements/boqey.png",
+        "className": "object-contain scale-48  rotate-0 z-50 -translate-x-14 translate-y-28 "
+      },
+      {
+        "src": "/ref/girl5.jpg",
+        "className": "object-contain scale-32  rotate-0 z-50 translate-x-19 -translate-y-32 "
+      },
+      {
+        "src": "/ref/girl1.jpg",
+        "className": "object-contain scale-68  rotate-0 z-50 translate-x-18 -translate-y-28 "
+      },
+      {
+        "src": "/frames/frame5.png",
+        "className": "object-contain scale-68  rotate-0 z-50 translate-x-18 -translate-y-28 "
+      },
+      {
+        "src": "/elements/miss.png",
+        "className": "object-contain scale-48  rotate-18 z-50 translate-x-28 translate-y-4 "
+      }
+    ]
+  },
+  {
+    "pageIndex": 7,
+    "images": [
+      {
+        "src": "/pages/left.jpg",
+        "className": "object-contain pointer-events-none select-none"
+      },
+      {
+        "src": "/elements/side4.png",
+        "className": "object-contain scale-68  rotate-0 z-50 -translate-x-22 translate-y-23 "
+      },
+      {
+        "src": "/elements/disk.png",
+        "className": "object-contain scale-68  rotate-0 z-50 -translate-x-50 -translate-y-15 "
+      },
+      {
+        "src": "/elements/disk.png",
+        "className": "object-contain scale-68  rotate-0 z-50 -translate-x-50 -translate-y-15 "
+      },
+      {
+        "src": "/elements/billa5.png",
+        "className": "object-contain scale-68  rotate-0 z-50 translate-x-19 translate-y-33 "
+      },
+      {
+        "src": "/ref/girl11.jpg",
+        "className": "object-contain scale-26  -rotate-11 z-50 translate-x-4 -translate-y-12 "
+      },
+      {
+        "src": "/ref/girl10.jpg",
+        "className": "object-contain scale-26  rotate-11 z-50 translate-x-16 -translate-y-40 "
+      },
+      {
+        "src": "/elements/frame8.png",
+        "className": "object-contain scale-68  rotate-0 z-50 translate-x-10 -translate-y-25 "
+      },
+      {
+        "src": "/elements/twoStar.png",
+        "className": "object-contain scale-38  rotate-0 z-50 -translate-x-14 translate-y-20 "
+      },
+      {
+        "src": "/elements/text3.png",
+        "className": "object-contain scale-48  rotate-0 z-50 -translate-x-22 -translate-y-48 "
+      }
+    ]
+  },
+  {
+    "pageIndex": 8,
+    "images": [
+      {
+        "src": "/pages/right.jpg",
+        "className": "object-contain pointer-events-none select-none"
+      },
+      {
+        "src": "/elements/side5.png",
+        "className": "object-contain scale-78  rotate-0 z-50 translate-x-22 translate-y-14 "
+      },
+      {
+        "src": "/elements/text4.png",
+        "className": "object-contain scale-58  rotate-0 z-50 -translate-x-6 -translate-y-40 "
+      },
+      {
+        "src": "/ref/girl9.jpg",
+        "className": "object-contain scale-28  -rotate-4 z-50 -translate-x-18 -translate-y-16 "
+      },
+      {
+        "src": "/ref/girl8.jpg",
+        "className": "object-contain scale-27  rotate-10 z-50 -translate-x-11 translate-y-13 "
+      },
+      {
+        "src": "/elements/frame7.png",
+        "className": "object-contain scale-68  rotate-0 z-50 -translate-x-14 translate-y-1 "
+      },
+      {
+        "src": "/elements/billa4.png",
+        "className": "object-contain scale-58  rotate-0 z-50 -translate-x-17 translate-y-40 "
+      }
+    ]
+  },
+  {
+    "pageIndex": 9,
+    "images": [
+      {
+        "src": "/pages/back.png",
+        "className": "object-contain scale-130 translate-x-3 pointer-events-none select-none"
+      }
+    ]
+  }
+]

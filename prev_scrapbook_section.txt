@@ -1,0 +1,128 @@
+Created At: 2026-09-26T17:06:20+05:30
+Completed At: 2026-09-26T17:06:41+05:30
+
+				The command exited with code 0.
+				Output:
+				<truncated 291 lines>
++
++  </div>
++
++  <!-- INTERACTIVITY SCRIPTS FOR SECTIONS 2, 3, AND 4 -->
+   <script>
+-    window.BDY_ATM_BG = "";
+-    window.BDY_ASSETS = {
+-      happyBirthday: "/assets/happy-birthday.png",
+-      cheekLove: "/assets/cheek-love.mp4",
+-      hugBears: "/assets/hug-bears.mp4",
+-      iLoveYou: "/assets/i-love-you.mp4",
+-      bearCake: "/assets/bear-cake.jpeg",
+-      giftBox: "/assets/gift-box.mp4",
+-      thankYou: "/assets/thank-you.png",
+-      song: "/assets/our-song.mp3",
+-      songTitle: "Tu Bemisal hai, Tere kya Misaal dun"
+-    };
++    // ==========================================
++    // SECTION 2: CURVED MARQUEE ANIMATION & DRAG
++    // ==========================================
++    (function initCurvedMarquee() {
++      const container = document.querySelector('section:nth-of-type(2) .relative.w-full.h-full');
++      if (!container) return;
++
++      const nodes = container.querySelectorAll('.absolute.top-0.left-0');
++      if (!nodes || nodes.length === 0) return;
++
++      const totalNodes = nodes.length; // 24 items
++      const basePositions = [];
++      nodes.forEach((node, i) => {
++        // offset-distance percentage is set on style
++        const match = node.style.offsetDistance ? parseFloat(node.style.offsetDistance) : (i * (100 / totalNodes));
++        basePositions.push(match);
++      });
++
++      let currentOffset = 0;
++      let isHovered = false;
++      let isDragging = false;
++      let startX = 0;
++      let dragVelocity = 0;
++
++      container.addEventListener('mouseenter', () => isHovered = true);
++      container.addEventListener('mouseleave', () => isHovered = false);
++
++      container.addEventListener('pointerdown', (e) => {
++        isDragging = true;
++        startX = e.clientX;
++        dragVelocity = 0;
++        container.style.cursor = 'grabbing';
++      });
++
++      window.addEventListener('pointermove', (e) => {
++      
+<truncated 3634 bytes>
+
++    // SECTION 4: SCRAPBOOK PAGEFLIP
++    // ==========================================
++    (function initScrapbook() {
++      const bookContainer = document.querySelector('section:nth-of-type(4) .flex.h-screen > div');
++      if (!bookContainer) return;
++
++      let attempts = 0;
++      function setupFlip() {
++        if (!window.St || !window.St.PageFlip) {
++          if (attempts++ < 50) {
++            setTimeout(setupFlip, 100);
++          }
++          return;
++        }
++
++        try {
++          const pageFlip = new St.PageFlip(bookContainer, {
++            width: 400,
++            height: 500,
++            size: "fixed",
++            autoSize: false,
++            showCover: true,
++            drawShadow: true,
++            maxShadowOpacity: 0.5,
++            usePortrait: false,
++            startPage: 0
++          });
++
++          pageFlip.loadFromHTML(bookContainer.querySelectorAll('.book-page'));
++
++          // Click on left/right half to turn page
++          bookContainer.addEventListener('click', (e) => {
++            const rect = bookContainer.getBoundingClientRect();
++            const clickX = e.clientX - rect.left;
++            if (clickX > rect.width / 2) {
++              pageFlip.flipNext();
++            } else {
++              pageFlip.flipPrev();
++            }
++          });
++
++          // Keyboard navigation
++          window.addEventListener('keydown', (e) => {
++            if (e.key === 'ArrowRight') pageFlip.flipNext();
++            if (e.key === 'ArrowLeft') pageFlip.flipPrev();
++          });
++        } catch (err) {
++          console.warn('PageFlip init error:', err);
++        }
++      }
++
++      if (document.readyState === 'loading') {
++        document.addEventListener('DOMContentLoaded', setupFlip);
++      } else {
++        setupFlip();
++      }
++    })();
+   </script>
+-  <script src="/assets/lucide.js"></script>
+-  <script src="/chapters.js"></script>
+-  <script src="/script.js"></script>
+-  <script src="/enhance.js"></script>
+ </body>
+-
+ </html>
+\ No newline at end of file
+
