@@ -76,9 +76,12 @@
       top: 0;
       right: 0;
       bottom: 0;
-      object-fit: contain;
+      -o-object-fit: contain;
+         object-fit: contain;
       pointer-events: none;
-      user-select: none;
+      -webkit-user-select: none;
+         -moz-user-select: none;
+              user-select: none;
     }
 
     /* Mobile Infinite Photo Marquee Animation */
@@ -92,6 +95,7 @@
     }
     .animate-mobile-ribbon {
       display: flex;
+      width: -moz-max-content;
       width: max-content;
       animation: mobileRibbonScroll 25s linear infinite;
     }
