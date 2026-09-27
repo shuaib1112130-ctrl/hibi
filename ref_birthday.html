@@ -267,7 +267,8 @@
   </script>
   <script>
     // ---- EDIT THIS: real birth date/time ----
-    const BIRTH_DATE = new Date(2009, 09, 27, 00, 00, 0);
+    // In JavaScript Date constructor, month is 0-indexed (8 = September)
+    const BIRTH_DATE = new Date(2009, 8, 27, 0, 0, 0);
 
     function computeParts() {
       const now = new Date();
